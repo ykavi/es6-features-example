@@ -38,7 +38,7 @@ const { name2, surname2, mail2, ...geriKalan } = obj2; // Destructuring yontemi
 console.log(`${JSON.stringify(geriKalan)}\n`);
 
 console.log(`----------------------Arrow Functions----------------------`);
-//Normal fonksiyonlardan farkı 'this' denince kendi scobunun dışındakilere ulaşır ve kural olarak geri return etmeli
+//Normal fonksiyonlardan farkı kendi scobunun dışındakilere ulaşır ve kural olarak return etmeli
 const myArrowFunction = (sayi1, sayi2) => {
     return sayi1 + sayi2;
 }
